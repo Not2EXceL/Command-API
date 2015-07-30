@@ -1,6 +1,6 @@
 import org.apache.tools.ant.filters.ReplaceTokens
 
-group 'com.minecave'
+group 'io.not2excel'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
