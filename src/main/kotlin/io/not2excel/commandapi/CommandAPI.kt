@@ -1,4 +1,4 @@
-package com.minecave.commandapi
+package io.not2excel.commandapi
 
 import org.bukkit.plugin.java.JavaPlugin
 
@@ -10,13 +10,6 @@ import org.bukkit.plugin.java.JavaPlugin
  * kotlin can not be copied and/or distributed without the express
  * permission of the aforementioned owner.
  */
-
-fun main(args: Array<String>) {
-    val context = arrayOf("d", "e", "f")
-    println(context)
-    println(context.toString())
-    println(context + "")
-}
 
 class CommandAPI : JavaPlugin() {
 

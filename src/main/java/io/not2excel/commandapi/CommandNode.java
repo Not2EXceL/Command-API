@@ -6,7 +6,7 @@
  * kotlin can not be copied and/or distributed without the express
  * permission of the aforementioned owner.
  */
-package com.minecave.commandapi;
+package io.not2excel.commandapi;
 
 @FunctionalInterface
 public interface CommandNode {

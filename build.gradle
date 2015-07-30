@@ -37,7 +37,7 @@ processResources {
     filter ReplaceTokens, tokens: [
             "plugin.name"     : 'Command-API',
             "plugin.version"  : project.version,
-            "plugin.mainClass": 'com.minecave.kotlin.CommandAPI',
+            "plugin.mainClass": 'io.not2excel.kotlin.CommandAPI',
             "plugin.author"   : author
     ]
 }
