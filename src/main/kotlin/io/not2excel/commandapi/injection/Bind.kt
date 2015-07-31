@@ -9,12 +9,12 @@ package io.not2excel.commandapi.injection
  * permission of the aforementioned owner.
  */
 
-interface ParamBind<T> {
+public interface ParamBind<T> {
     val type: Class<T>
     fun bind(): T
 }
 
-interface TypeBind<T> : ParamBind<T> {
+public interface TypeBind<T> : ParamBind<T> {
     override fun bind(): T { throw UnsupportedOperationException() }
     fun bind(input: String): T
     fun bind(args: Array<String>, index: Int): T

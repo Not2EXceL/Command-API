@@ -14,7 +14,7 @@ import java.util.*
  * permission of the aforementioned owner.
  */
 
-class PlayerBind : TypeBind<Player> {
+public class PlayerBind : TypeBind<Player> {
 
     override val type: Class<Player>
         get() = javaClass()

@@ -27,7 +27,7 @@ fun main(args: Array<String>) {
     println(validateUUID(off.toString()))
 }
 
-class CommandAPI : JavaPlugin() {
+public class CommandAPI : JavaPlugin() {
 
     override fun onEnable() {
 
